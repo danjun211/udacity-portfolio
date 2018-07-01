@@ -1,0 +1,34 @@
+/* #root {
+  height: 100px;
+  width: 100px;
+  background-image: url("../images/silveredunet.png");
+}
+ */
+
+#logo {
+  width: 168px;
+  height: 78px;
+  background-image: url("../images/logo.png");
+  background-repeat: no-repeat;
+  background-size: 168px 78px;
+}
+
+.icon-link {
+  color: black;
+}
+
+.cart-list-item {
+  list-style: none;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {  }
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {  }
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {  }
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {  }
