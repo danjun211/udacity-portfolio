@@ -11,6 +11,11 @@ header {
   height: 74px;
 }
 
+#input-search-text {
+  display: none;
+  margin-right: 15px;
+}
+
 .logo {
   width: 50%;
 }

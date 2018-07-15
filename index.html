@@ -15,22 +15,24 @@
       <div class="logo">
           <img id="logo-img" src="./images/logo.png" alt="logo" />
       </div>
-      <div class="menu">
-          <i class="fas fa-search fa-1x"></i>
-          <i class="fas fa-bars fa-2x"></i>
+        <div class="menu">
+            <input id="input-search-text" type="text" value=""/>
+            <i class="fas fa-search fa-1x"></i>
+          <!-- <i class="fas fa-bars fa-2x"></i> -->
       </div>
     </header>
     
     <ul class="nav justify-content-center">
-      <li class="nav-item"><a class="nav-link" href="#">Web</a></li>
-      <li class="nav-item"><a class="nav-link" href="#">Mobile</a></li>
-      <li class="nav-item"><a class="nav-link" href="#">Etc</a></li>
+      <li class="nav-item"><a class="nav-link" data-kind="all" href="#">All</a></li>
+      <li class="nav-item"><a class="nav-link" data-kind="web" href="#">Web</a></li>
+      <li class="nav-item"><a class="nav-link" data-kind="mobile" href="#">Mobile</a></li>
+      <li class="nav-item"><a class="nav-link" data-kind="etc" href="#">Etc</a></li>
     </ul>
 
     <div id="root" class="container">
       <ul id="portfolio-group">
         <li class="card-list-item">
-            <div class="card" data-href="http://www.silveredu.net/">
+            <div class="card" data-href="http://www.silveredu.net/" data-kind="web">
               <div class="card-top">
                   <img class="card-img-top" src="./images/silver-logo.png" alt="silver-logo">
               </div>
@@ -43,7 +45,7 @@
             </div>
         </li>
         <li class="card-list-item">
-            <div class="card" data-href="http://www.waglebagle.net/">
+            <div class="card" data-href="http://www.waglebagle.net/" data-kind="web">
                 <div class="card-top">
                     <img class="card-img-top" src="./images/waglebagle-logo.png" alt="silver-logo">
                 </div>
@@ -56,7 +58,7 @@
               </div>
           </li>
           <li class="card-list-item">
-              <div class="card" data-href="https://github.com/yeolsa/reservation-system">
+              <div class="card" data-href="https://github.com/yeolsa/reservation-system" data-kind="web">
                   <div class="card-top">
                       <!-- <img class="card-img-top" src="./images/icons8-web-design-64.png" alt="silver-logo"> -->
                   </div>
@@ -69,7 +71,7 @@
                 </div>
             </li>
             <li class="card-list-item">
-                <div class="card" data-href="https://github.com/yeolsa/JJBrosMatchaApp">
+                <div class="card" data-href="https://github.com/yeolsa/JJBrosMatchaApp" data-kind="mobile">
                     <div class="card-top">
                         <img class="card-img-top" src="./images/matcha-logo.png" alt="silver-logo">
                     </div>
