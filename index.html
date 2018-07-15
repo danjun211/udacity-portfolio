@@ -7,73 +7,100 @@
   <title>Portfolio LeeJunyeol</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/styles.css">
 </head>
 <body>
   <div class="container">
     <header class="row">
-      <div id="logo"></div>
-      <div>
-          <i class="fas fa-search"></i>
+      <div class="logo">
+          <img id="logo-img" src="/images/logo.png" alt="logo" />
+      </div>
+      <div class="menu">
+          <i class="fas fa-search fa-1x"></i>
+          <i class="fas fa-bars fa-2x"></i>
       </div>
     </header>
+    
+    <ul class="nav justify-content-center">
+      <li class="nav-item"><a class="nav-link" href="#">Web</a></li>
+      <li class="nav-item"><a class="nav-link" href="#">Mobile</a></li>
+      <li class="nav-item"><a class="nav-link" href="#">Etc</a></li>
+    </ul>
+
     <div id="root" class="container">
       <ul id="portfolio-group">
-        <li class="cart-list-item">
-            <div class="card" style="width: 18rem;">
-              <img class="card-img-top" src=".../100px180/" alt="Card image cap">
+        <li class="card-list-item">
+            <div class="card" data-href="http://www.silveredu.net/">
+              <div class="card-top">
+                  <img class="card-img-top" src="/images/silver-logo.png" alt="silver-logo">
+              </div>
               <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+                <h5 class="card-title">Silveredu</h5>
+                <p class="card-text">
+                  Eucation site for silver.
+                </p>
               </div>
             </div>
         </li>
-        <li class="cart-list-item">
-            <div class="card" style="width: 18rem;">
-              <img class="card-img-top" src=".../100px180/" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
+        <li class="card-list-item">
+            <div class="card" data-href="http://www.waglebagle.net/">
+                <div class="card-top">
+                    <img class="card-img-top" src="/images/waglebagle-logo.png" alt="silver-logo">
+                </div>
+                <div class="card-body">
+                  <h5 class="card-title">Waglebagle</h5>
+                  <p class="card-text">
+                    Homeschooling.
+                  </p>
+                </div>
               </div>
-            </div>
-        </li>
-        <li class="cart-list-item">
-            <div class="card" style="width: 18rem;">
-              <img class="card-img-top" src=".../100px180/" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-        </li>
-        <li class="cart-list-item">
-            <div class="card" style="width: 18rem;">
-              <img class="card-img-top" src=".../100px180/" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Card title</h5>
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                <a href="#" class="btn btn-primary">Go somewhere</a>
-              </div>
-            </div>
-        </li>
-      </ul>
+          </li>
+          <li class="card-list-item">
+              <div class="card" data-href="https://github.com/yeolsa/reservation-system">
+                  <div class="card-top">
+                      <!-- <img class="card-img-top" src="/images/icons8-web-design-64.png" alt="silver-logo"> -->
+                  </div>
+                  <div class="card-body">
+                    <h5 class="card-title">NAVER Reservation <br> System Clone</h5>
+                    <p class="card-text">
+                      Cloning Naver reservation system.
+                    </p>
+                  </div>
+                </div>
+            </li>
+            <li class="card-list-item">
+                <div class="card" data-href="https://github.com/yeolsa/JJBrosMatchaApp">
+                    <div class="card-top">
+                        <img class="card-img-top" src="/images/matcha-logo.png" alt="silver-logo">
+                    </div>
+                    <div class="card-body">
+                      <h5 class="card-title">Matcha</h5>
+                      <p class="card-text">
+                        Food Truck location service applicatoin.
+                      </p>
+                    </div>
+                  </div>
+              </li>
+            </ul>
 
     </div>
-    <footer class="container">
-        <div class="row">
-            <div class="col-6">
-              <a href="https://github.com/yeolsa" class="icon-link"><i class="fab fa-github"></i></a>
-              <a href="https://www.facebook.com/junyeol2" class="icon-link"><i class="fab fa-facebook"></i></a>
-              <a href="mailto:vic2ori@gmail.com" class="icon-link"><i class="fas fa-envelope"></i></a>
-            </div>
-            <div class="col-6">
-              <span class="copyright">ⓒ 2018 Portfolio LeeJunyeol</span>
-            </div>
-        </div>
-    </footer>
   </div>
-  <script src="./bundle.js"></script>
+  <footer class="container">
+      <div class="row">
+          <div class="col-4 contacts">
+            <a href="https://github.com/yeolsa" class="icon-link"><i class="fab fa-github"></i></a>
+            <a href="https://www.facebook.com/junyeol2" class="icon-link"><i class="fab fa-facebook"></i></a>
+            <a href="mailto:vic2ori@gmail.com" class="icon-link"><i class="fas fa-envelope"></i></a>
+          </div>
+          <div class="col-8 corp">
+            <span class="copyright">ⓒ 2018 Portfolio LeeJunyeol</span>
+          </div>
+      </div>
+</footer>
+<script
+  src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+  integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E="
+  crossorigin="anonymous"></script>
+<script src="./js/app.js"></script>
 </body>
 </html>
